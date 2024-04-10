@@ -36,7 +36,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Create an OpenAI client with your API key
-openai_client = openai.Client(api_key=st.secrets["OPENAI_API_KEY"])
+openai_client = openai.Client(api_key=st.secrets[OPENAI_API_KEY])
 
 
 # Retrieve the assistant you want to use
